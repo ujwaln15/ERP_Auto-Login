@@ -1,0 +1,91 @@
+html {
+    height: 100%;
+    box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+body{
+    background: url(bg.jpg) no-repeat center center fixed;
+    background-size: cover;
+    position: relative;
+    margin: 0;
+    padding-bottom: 6rem;
+    min-height: 100%;
+}
+p{
+    font-size: xx-large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    font-weight: 900;
+    text-decoration: underline;
+}
+h1{
+    font-size: large;
+    font-family: cursive;
+    text-align: center;
+    font-weight: 500;
+}
+.form
+{
+    text-align: center;
+    backdrop-filter: blur(10px);
+}
+h4{
+    font-size: x-large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 600;
+    color: black;
+    text-decoration: underline;
+}
+h5{
+    font-size: large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 600;
+    color: black;
+    text-decoration: underline;
+}
+button{
+    width: 100px;
+    background-color: #fdf6dc;
+}
+button:hover{
+    background-color: brown;
+    color: #FFFFFF;
+}
+.buttons li{
+    list-style: none;
+    text-align: center;
+    background-color: #fdf6dc;
+    margin-right: 43.5%;
+    margin-left: 43.5%;
+    width: 150px;
+    margin-top: 15px;
+    line-height: 60px;
+}
+.buttons li a {
+    text-decoration: none;
+    color: #000000;
+    display: block;
+}
+
+.buttons li a:hover {
+    text-decoration: none;
+    color: #FFFFFF;
+    background-color: brown;
+}
+.footer {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 1rem;
+    background-color: #cccccc;
+    text-align: center;
+}
+#back{
+    text-decoration: none;
+    color: black;
+}

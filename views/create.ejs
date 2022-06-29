@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<%- include('partials/head.ejs') %>
+<body>
+    <div class="form">
+        <form action="/" method="post">
+            <h4>Stakeholder ID: </h4>
+            <input type="text" name="roll" required>
+            <h4>Password: </h4>
+            <input type="password" name="pass" required>
+            <h4>Security Questions: (Case Sensitive)</h4>
+            <h5>Question 1: </h5>
+            <input type="text" name="sq1" required>
+            <h5>Answer 1: </h5>
+            <input type="password" name="sa1" required>
+            <h5>Question 2: </h5>
+            <input type="text" name="sq2" required>
+            <h5>Answer 2: </h5>
+            <input type="password" name="sa2" required>
+            <h5>Question 3: </h5>
+            <input type="text" name="sq3" required>
+            <h5>Answer 3: </h5>
+            <input type="password" name="sa3" required>
+            <br><br>
+            <button type="submit">Submit</button>
+        </form>
+        <button><a href="/" id="back">Back</a></button>
+    </div>
+    <%- include('partials/footer.ejs') %>
+</body>
+</html>

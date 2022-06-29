@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en">
+<%- include('partials/head.ejs') %>
+<body>
+    <h1>Please wait as ERP opens in a new browser window...</h1>
+    <%- include('partials/footer.ejs') %>
+    <script>
+        setTimeout(function () {
+            window.location = "/";
+        }, 3000)
+    </script>
+</body>
+</html>
