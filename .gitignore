@@ -1,7 +1,8 @@
-app.js-win32-x64/
+erp_login-win32-x64/
 build/
 node_modules/
 old/
 login.spec
 profile.bin
 geckodriver.log
+dist/
