@@ -1,7 +1,7 @@
 # ERP Auto-Login Web App
 
-Name: Ujwal Nitin Nayak 
-Roll No: 19EC30055
+Name: Ujwal Nitin Nayak<br/>
+Roll No: 19EC30055<br/>
 <br/>
 Frontend: HTML/EJS, CSS, NodeJS, ExpressJS
 <br/>
